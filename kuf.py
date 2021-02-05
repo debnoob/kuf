@@ -1,7 +1,6 @@
 import discord
 import os 
 client = discord.Client()
-token="NzMzNjA5MTcyOTY4NjY5MzA0.XxFoyA.tfOy_7gaPR3BNgQmlAVCnaKk0_s"
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
@@ -15,4 +14,4 @@ async def on_message(message):
         await message.channel.send(file=discord.File('Screenshot from 2021-02-04 08-51-42.png'))
                                                   
 
-client.run(token)
+client.run('token')

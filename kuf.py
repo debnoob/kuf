@@ -1,7 +1,7 @@
 import discord
 import os 
 client = discord.Client()
-token="NzMzNjA5MTcyOTY4NjY5MzA0.XxFoyA.4_qp5np1kR7CZh3DgehxCZVBt9M"
+token="NzMzNjA5MTcyOTY4NjY5MzA0.XxFoyA.tfOy_7gaPR3BNgQmlAVCnaKk0_s"
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
